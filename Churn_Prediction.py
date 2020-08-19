@@ -10,7 +10,7 @@ from sklearn import neighbors
 from sklearn.neighbors import KNeighborsClassifier
 
 # Reading the dataset
-data = pd.read_csv("C:/Users/KRITIKA/Documents/CS-513 KDD/PROJECT/WA_Fn-UseC_-Telco-Customer-Churn.csv")
+data = pd.read_csv("WA_Fn-UseC_-Telco-Customer-Churn.csv")
 data.head(10)
 data.columns
 len(data.columns)
